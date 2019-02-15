@@ -1,0 +1,103 @@
+body{
+margin: 0px;
+padding: 0px;
+width: 100%;
+}
+
+.diaporama1{
+	position: relative;
+	margin-left: 50px;
+width: 960px;
+height: 500px;
+border: 3px solid #333;
+background-image: url(img/dummy-640x310-1.jpg);
+background-repeat: none;
+background-size: cover;
+
+webkit-transition-name: diapo1;
+webkit-transition-duration: .7s .5s;
+webkit-transition-timing-function:linear;
+webkit-transition-iteration-count: infinite;
+webkit-transition-direction: normal;
+
+moz-transition-name: diapo1;
+moz-transition-duration: .7s .5s;
+moz-transition-timing-function:linear;
+moz-transition-iteration-count: infinite;
+moz-transition-direction: normal;
+
+transition-name: diapo1;
+transition-duration: .7s .5s;
+transition-timing-function:linear;
+transition-iteration-count: infinite;
+transition-direction: normal;
+}
+
+@-webkit-keyframes diapo1{
+0%{background-image: url(img/dummy-640x310-1.jpg);}
+33%{background-image: url(img/dummy-640x310-2.jpg);}
+66%{background-image: url(img/dummy-640x310-3.jpg);}
+}
+
+@-moz-keyframes diapo1{
+0%{background-image: url(img/dummy-640x310-1.jpg);}
+33%{background-image: url(img/dummy-640x310-2.jpg);}
+66%{background-image: url(img/dummy-640x310-3.jpg);}
+}
+
+@keyframes diapo1{
+0%{background-image: url(img/dummy-640x310-1.jpg);}
+33%{background-image: url(img/dummy-640x310-2.jpg);}
+66%{background-image: url(img/dummy-640x310-3.jpg);}
+
+}
+
+.diaporama2{
+	margin: 0px auto;
+	width: 640px;
+height: 310px;
+border: 3px solid #333;
+background-image: url(img/dummy-640x310-1234.jpg);
+/*background-repeat: none;
+background-size: cover;*/
+
+webkit-transition-name: diapo2;
+webkit-transition-duration: .7s .5s;
+webkit-transition-timing-function:linear;
+webkit-transition-iteration-count: infinite;
+webkit-transition-direction: normal;
+
+moz-transition-name: diapo2;
+moz-transition-duration: .7s .5s;
+moz-transition-timing-function:linear;
+moz-transition-iteration-count: infinite;
+moz-transition-direction: normal;
+
+transition-name: diapo2;
+transition-duration:  .7s .5s;
+transition-timing-function:linear;
+transition-iteration-count: infinite;
+transition-direction: normal;
+}
+
+@-webkit-keyframes diapo2{
+0%{background-position: 0px 0px;}
+31%{background-position: -960px 0px;}
+64%{background-position: -1920px 0px;}
+100%{background-position: -2880px 0px;}
+}
+
+@-moz-keyframes diapo2{
+0%{background-position: 0px 0px;}
+31%{background-position: -960px 0px;}
+64%{background-position: -1920px 0px;}
+100%{background-position: -2880px 0px;}
+}
+
+@keyframes diapo2{
+0%{background-position: 0px 0px;}
+31%{background-position: -960px 0px;}
+64%{background-position: -1920px 0px;}
+100%{background-position: -2880px 0px;}
+
+}
